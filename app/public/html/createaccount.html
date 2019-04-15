@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  
+  <div class="container">
+    <img src="../images/crash.jpg" class=" mx-auto d-block">
+    <form action="/createaccount" method="POST">
+        <div class="form-group col-6 mx-auto d-block">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group col-6 mx-auto d-block">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group col-6 mx-auto d-block">
+          <label for="exampleInputPassword1">Confirm Password</label>
+          <input type="password" name="confirmPassword" class="form-control" id="password2" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-outline-primary mx-auto d-block btn-lg">Submit</button>
+      </form>
+    </div>
+    <br>
+    
+
+
+
+    <footer class="sticky footer">
+      <div class="container">
+          <span class="text-muted">
+              <p>2019   &copy;   Road Review Central</p>
+          </span>
+      </div>
+  </footer>
+
+</body>
+</html>
